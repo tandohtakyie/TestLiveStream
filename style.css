@@ -1,0 +1,81 @@
+body,
+html {
+  height: 100%;
+}
+.pt30 {
+  padding-top: 30px;
+}
+.mb15 {
+  margin-bottom: 15px;
+}
+.mb50 {
+  margin-bottom: 50px;
+}
+.page-bg {
+  background: /* top, transparent red */ linear-gradient(
+      rgba(0, 0, 0, 0.44),
+      rgba(0, 0, 0, 0.97)
+    ),
+    /* bottom, image */ url(./img/bg.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-image-detail {
+  height: 500px;
+  background: /* top, transparent red */ linear-gradient(
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.62)
+    ),
+    /* bottom, image */ url(./img/music1.jpg);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-image-detail-2 {
+  height: 500px;
+  background: /* top, transparent red */ linear-gradient(
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.62)
+    ),
+    /* bottom, image */ url(./img/music2.jpg);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-image-detail-3 {
+  height: 500px;
+  background: /* top, transparent red */ linear-gradient(
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.62)
+    ),
+    /* bottom, image */ url(./img/music3.jpg);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pos-rel {
+  position: relative;
+}
+.overlay-text {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 10em;
+}
+.overlay-text p {
+  font-size: xx-large;
+  color: #fff;
+}
+.white-bg {
+  background: #fff;
+  padding: 15px;
+}
+.btn-abs {
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+}
